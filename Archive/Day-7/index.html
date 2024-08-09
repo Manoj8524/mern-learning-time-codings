@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      .content {
+        display: flex;
+      }
+      h1 {
+        margin-bottom: 50px;
+        /* border: 5px solid greenyellow; */
+        border-width: 5px;
+        border-style: dotted;
+        border-color: greenyellow;
+        width: 400px;
+        border-radius: 100px;
+        /* padding-bottom: 50px; */
+      }
+
+      .form {
+        border: 1px solid black;
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+      }
+      .formContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      input {
+        padding: 10px;
+        width: 200px;
+      }
+
+      /* descendant sel */
+      /* .test p {
+        color: red;
+      } */
+
+      /* child sel */
+      .test > div > p {
+        color: goldenrod;
+      }
+
+      /* adjacent sibling sel */
+      /* .test + p {
+        color: red;
+      } */
+
+      /* general sibling sel */
+      .test ~ p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="test">
+      <p>hsdfds</p>
+      <div>
+        <p>sdfds</p>
+      </div>
+    </div>
+    <p>hello world</p>
+    <h1>hey</h1>
+    <p>good night</p>
+
+    <!-- <div class="container">
+      <div class="content">
+        <h1>Hello</h1>
+        <h1>Hey</h1>
+        <h1>Your</h1>
+      </div>
+      <div class="content">
+        <h1>Now</h1>
+        <h1>Never</h1>
+        <h1>Get</h1>
+      </div>
+    </div>
+
+    <div class="form">
+      <div class="formContainer">
+        <h3>Submgrid</h3>
+        <label>Email</label>
+        <br />
+        <input type="email" />
+        <br />
+        <label>Password</label>
+        <br />
+        <input type="password" />
+        <br />
+        <button>Login</button>
+      </div>
+    </div> -->
+  </body>
+</html>

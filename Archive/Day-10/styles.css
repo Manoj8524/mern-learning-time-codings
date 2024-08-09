@@ -1,0 +1,26 @@
+.child1 {
+  background-color: red;
+  /* position: absolute; */
+  /* top: 100px; */
+  /* right: 30px; */
+  top: 0;
+  /* left: 20px; */
+  position: sticky;
+}
+
+.parent {
+  /* position: relative; */
+  font-size: 50px;
+}
+
+.child2 {
+  background-color: chartreuse;
+  font-size: inherit;
+}
+
+.child3 {
+  background-color: chocolate;
+  font-size: 20px;
+  /* position: absolute;
+  top: 30px; */
+}
